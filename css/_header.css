@@ -1,0 +1,60 @@
+/* Header */
+
+.page-header {
+    height: 80px;
+}
+
+.page-header__container {
+    display: flex;
+    margin: 19px auto;
+    align-items: center;
+}
+
+.header__logo {
+
+}
+
+.header__menu {
+    margin-left: 73px;
+}
+
+.menu {
+
+}
+
+.menu__list {
+    display: flex;
+    column-gap: 42px;
+
+}
+
+.menu__item {
+}
+
+.menu__link {
+}
+
+.header__socials {
+    margin-left: auto;
+    display: flex;
+    column-gap: 37px;
+}
+
+.header__button {
+    margin-left: 44px;
+}
+
+.button {
+    display: inline-block;
+    padding: 13px 16px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    user-select: none;
+    line-height: 1.5;
+}
+
+.button_blue {
+    color: #3A79FF;
+    background-color: #D2E1FF;
+}

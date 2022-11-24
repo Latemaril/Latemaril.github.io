@@ -1,0 +1,16 @@
+.hero-image{
+    height: 570px;
+    background-image: url("../img/hero image/hero_image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F4F7FF;
+}
+
+.hero-image__container{
+
+}
+
+.hero-text{
+
+}
