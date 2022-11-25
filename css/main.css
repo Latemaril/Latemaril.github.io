@@ -17,7 +17,3 @@ body {
     min-height: 100%;
 }
 
-[class*="__container"] {
-    max-width: 1236px;
-}
-

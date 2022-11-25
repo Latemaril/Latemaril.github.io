@@ -1,10 +1,11 @@
 /* Header */
 
-.page-header {
+.header {
     height: 80px;
 }
 
-.page-header__container {
+.header__container {
+    max-width: 1236px;
     display: flex;
     margin: 19px auto;
     align-items: center;
@@ -25,13 +26,16 @@
 .menu__list {
     display: flex;
     column-gap: 42px;
-
 }
 
 .menu__item {
+
 }
 
 .menu__link {
+    color: #697CA6;
+    text-shadow: 0px 0px 5px #E6E6E6;
+    text-transform: capitalize;
 }
 
 .header__socials {
@@ -57,4 +61,9 @@
 .button_blue {
     color: #3A79FF;
     background-color: #D2E1FF;
+}
+
+.button_blue:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #9eb4ea, 0 0 20px #9eb4ea, 0 0 30px #9eb4ea;
 }
