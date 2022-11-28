@@ -1,0 +1,103 @@
+.manage {
+    background-image: url("../img/plane and manage/plan_and_manage.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000000;
+}
+
+.manage__container {
+    height: 776px;
+    max-width: 1236px;
+    margin: 0px 102px 0px 102px;
+}
+
+.manage__content {
+    position: absolute;
+    height: 413px;
+    margin-left: 167px;
+    margin-top: 208px;
+
+}
+
+.manage__sheet {
+    height: 262px;
+    width: 413px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.manage__description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3D4F9F;
+
+}
+
+.manage__title {
+    padding-top: 27px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #3D4F9F;
+}
+
+.title_bold {
+    font-weight: 500;
+}
+
+.manage__text {
+    padding-top: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #8D96BD;
+}
+
+.manage__button {
+    padding-top: 60px;
+
+}
+
+.button_video {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+    display: inline-block;
+    background: #4C85FF;
+    padding: 13px 37px 13px 25px;
+    border-radius: 2px;
+}
+
+.button_features {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #ADB4D2;
+
+    display: inline-block;
+    border: 1px solid #ADB4D2;
+    padding: 13px 21px 13px 21px;
+    border-radius: 2px;
+}
+
+.button_video:hover {
+    box-shadow: 0 0 5px #9eb4ea, 0 0 20px #9eb4ea, 0 0 30px #9eb4ea;
+}

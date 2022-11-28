@@ -1,0 +1,15 @@
+.customers {
+    height: 145px;
+    margin-left: 276px;
+    margin-right: 276px;
+    background-color: #FFFFFF;
+}
+
+.customers__container {
+    max-width: 1236px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 58px;
+    margin: 0px auto;
+}
