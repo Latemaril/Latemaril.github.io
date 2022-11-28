@@ -20,11 +20,11 @@
     margin: 0px auto;
 }
 
-.content__text{
-    display: table-cell;
-    vertical-align: bottom;
+.hero__sheet {
+    display: flex;
+    flex-direction: column;
     position: relative;
-    width: 600px;
+    width: 581px;
     height: 194px;
     text-align: center;
 }
@@ -49,9 +49,10 @@
     color: #3D4F9F;
     font-weight: 300;
     font-size: 48px;
+    text-align: center;
 }
 
-.hero__sheet {
+.hero__text {
     position: relative;
     width: 450px;
     padding-top: 28px;
