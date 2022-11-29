@@ -1,9 +1,13 @@
 .hero{
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #D8E3FE;
+
     background-image: url("../img/hero image/hero_image.svg");
-    background-size: cover;
+    background-size: auto 590px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-color: #000000;
+    background-color: #F4F7FF;
 }
 
 .hero__container{
@@ -21,16 +25,13 @@
 }
 
 .hero__sheet {
+    height: 194px;
     display: flex;
     flex-direction: column;
-    position: relative;
-    width: 581px;
-    height: 194px;
     text-align: center;
 }
 
 .hero__description {
-    padding-bottom: 16px;
     font-family: 'Roboto';
     color: #3D4F9F;
     font-weight: 500;
@@ -44,7 +45,8 @@
 }
 
 .hero__title {
-    position: relative;
+    padding-top: 16px;
+
     font-family: 'Quicksand';
     color: #3D4F9F;
     font-weight: 300;
@@ -53,10 +55,11 @@
 }
 
 .hero__text {
+    padding-top: 28px;
     position: relative;
     width: 450px;
-    padding-top: 28px;
     margin: 0px auto;
+
     line-height: 192%;
     font-family: 'Roboto';
     color: #8D96BD;

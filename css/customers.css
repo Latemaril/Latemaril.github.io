@@ -1,15 +1,24 @@
 .customers {
-    height: 145px;
-    margin-left: 276px;
-    margin-right: 276px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #D8E3FE;
+
     background-color: #FFFFFF;
 }
 
 .customers__container {
     max-width: 1236px;
+    position: relative;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-top: 58px;
+    justify-content: center;
+    height: 145px;
     margin: 0px auto;
+}
+
+.customers__content {
+    display: flex;
+    width: 888px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
 }

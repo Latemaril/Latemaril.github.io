@@ -1,15 +1,19 @@
 .manage {
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #D8E3FE;
+
     background-image: url("../img/plane and manage/plan_and_manage.svg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    background-color: #000000;
+    background-color: #F5F8FF;
 }
 
 .manage__container {
     height: 776px;
     max-width: 1236px;
-    margin: 0px 102px 0px 102px;
+    margin: 0px auto;
 }
 
 .manage__content {

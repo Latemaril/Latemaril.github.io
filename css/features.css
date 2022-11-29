@@ -1,0 +1,126 @@
+.features {
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #D8E3FE;
+
+    background-image: url("../img/features/features.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFFFFF;
+}
+
+.features__container {
+    height: 885px;
+    max-width: 1236px;
+    margin: 0px auto;
+}
+
+.features__content {
+    position: relative;
+    width: 761px;
+    height: 761px;
+    top: 170px;
+    margin: 0px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.features__sheet {
+    height: 62px;
+    width: 229px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features__description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3D4F9F;
+
+}
+
+.features__title {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #3D4F9F;
+}
+
+.features__attraction {
+    height: 346px;
+    width: 761px;
+}
+
+.attraction {
+    padding-top: 92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.features__img {
+    max-width: 69px;
+    max-height: 69px;
+}
+
+.features__overview {
+    height: 254px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features__files {
+    height: 254px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features__chats {
+    height: 254px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features__save {
+    height: 254px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features__button {
+}
+
+.button_red {
+}
+
+.features__choice {
+}
+
+.button_blue {
+}
