@@ -1,8 +1,12 @@
 .customers {
+    height: 100%;
+
     border-top-width: 2px;
     border-top-style: solid;
     border-top-color: #D8E3FE;
+}
 
+.customers_bg {
     background-color: #FFFFFF;
 }
 

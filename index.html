@@ -7,7 +7,7 @@
     <title>Training site</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<body>
+<body class="_plan">
     <div class="wrapper">
         <header class="header">
             <div class="header__container">
@@ -35,27 +35,31 @@
             </div>
         </header>
         <section class="hero">
-            <div class="hero__container">
-                <div class="hero__content">
-                    <div class="hero__sheet">
-                        <h1 class="hero__description">plan your life<br></h1>
-                        <span class="hero__title">Increase your <a class="description__bold">productivity</a></span>
-                        <p class="hero__text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</p>
+            <div class="hero_bg">
+                <div class="hero__container">
+                    <div class="hero__content">
+                        <div class="hero__sheet">
+                            <h1 class="hero__description">plan your life<br></h1>
+                            <span class="hero__title">Increase your <a class="description__bold">productivity</a></span>
+                            <p class="hero__text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.</p>
+                        </div>
+                        <a  class="hero__button" >
+                            <img class="button_play" src="./img/hero%20image/play_button.svg">
+                        </a>
                     </div>
-                    <a  class="hero__button" >
-                        <img class="button_play" src="./img/hero%20image/play_button.svg">
-                    </a>
                 </div>
             </div>
         </section>
-        <section class="customers">
-            <div class="customers__container">
-                <div class="customers__content">
-                    <a href=""><img src="./img/customers/bitbucket.svg" alt=""></a>
-                    <a href=""><img src="./img/customers/apple_watch.svg" alt=""></a>
-                    <a href=""><img src="./img/customers/facebook.svg" alt=""></a>
-                    <a href=""><img src="./img/customers/atlassian.svg" alt=""></a>
-                    <a href=""><img src="./img/customers/audi.svg" alt=""></a>
+        <section class="customers_bg">
+            <div class="customers">
+                <div class="customers__container">
+                    <div class="customers__content">
+                        <a href=""><img src="./img/customers/bitbucket.svg" alt=""></a>
+                        <a href=""><img src="./img/customers/apple_watch.svg" alt=""></a>
+                        <a href=""><img src="./img/customers/facebook.svg" alt=""></a>
+                        <a href=""><img src="./img/customers/atlassian.svg" alt=""></a>
+                        <a href=""><img src="./img/customers/audi.svg" alt=""></a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -83,20 +87,27 @@
                         <span class="features__title">Read about our app</span>
                     </div>
                     <div class="features__attraction">
-                        <ul class="attraction">
-                            <li class="features__overview">
-                                <img class="features__img" src="./img/features/icons/overview.svg" alt=""><b href="">Overview</b><a href=""></a>
-                            </li>
-                            <li class="features__files">
-                                <img class="features__img" src="./img/features/icons/files.svg" alt=""><b href="">Files</b><a href=""></a>
-                            </li>
-                            <li class="features__chats">
-                                <img class="features__img" src="./img/features/icons/chats.svg" alt=""><b href="">Meeting</b><a href=""></a>
-                            </li>
-                            <li class="features__save">
-                                <img class="features__img" src="./img/features/icons/save.svg" alt=""><b href="">Save events</b><a href=""></a>
-                            </li>
-                        </ul>
+                        <div class="attractions">
+                            <div class="attractions__titles">
+                                <ul class="titles__row">
+                                    <li class="titles__column"><img src="./img/features/icons/overview.svg" alt=""><b>Overview</b></li>
+                                    <li class="attraction__line"></li>
+                                    <li class="titles__column"><img src="./img/features/icons/files.svg" alt=""><b>Files</b></li>
+                                    <li class="attraction__line"></li>
+                                    <li class="titles__column"><img src="./img/features/icons/chats.svg" alt=""><b>Meeting chats</b></li>
+                                    <li class="attraction__line"></li>
+                                    <li class="titles__column"><img src="./img/features/icons/save.svg" alt=""><b>Save events</b></li>
+                                </ul>
+                            </div>
+                            <div class="attractions__texts">
+                                <ul class="texts__row">
+                                    <li class="texts__position"><a href="">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.</a></li>
+                                    <li class="texts__position"><a href="">No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.</a></li>
+                                    <li class="texts__position"><a href="">Vim ne tacimates neglegentur. Erat diceret omittam at est.</a></li>
+                                    <li class="texts__position"><a href="">Nisl idque mel ea, nominati voluptatum.</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div class="features__button">
                         <button class="button_red">Read more</button>

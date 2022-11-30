@@ -1,10 +1,17 @@
-.hero{
+.hero {
+    height: 100%;
+    position: relative;
+
     border-top-width: 2px;
     border-top-style: solid;
     border-top-color: #D8E3FE;
+}
 
+.hero_bg{
     background-image: url("../img/hero image/hero_image.svg");
-    background-size: auto 590px;
+    background-position: 50% 100%;
+    background-size: cover;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #F4F7FF;
