@@ -144,14 +144,34 @@
 }
 
 .features__button {
-
+    position: relative;
+    width: 337px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 92px;
 }
 
 .button_red {
+    color: #D43F3F;
+    background-color: #FFD7D7;
 }
 
 .features__choice {
+    display: flex;
+    align-self: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: #ADB3CB;
 }
 
-.button_blue {
+.button__line {
+    display: flex;
+    align-self: center;
+    width: 17px;
+    border-bottom: 1px solid #DAE4FE;
 }

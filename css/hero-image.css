@@ -1,7 +1,5 @@
 .hero {
-    height: 100%;
-    position: relative;
-
+    min-height: 570px;
     border-top-width: 2px;
     border-top-style: solid;
     border-top-color: #D8E3FE;
@@ -11,6 +9,7 @@
     background-image: url("../img/hero image/hero_image.svg");
     background-position: 50% 100%;
     background-size: cover;
+    min-height: 570px;
     height: 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -18,7 +17,6 @@
 }
 
 .hero__container{
-    height: 570px;
     max-width: 1236px;
     margin: 0px auto;
 }
