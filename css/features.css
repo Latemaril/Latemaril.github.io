@@ -8,19 +8,25 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #FFFFFF;
+
+    min-height: 885px;
+    height: 100vh;
 }
 
 .features__container {
-    height: 885px;
+    min-height: 885px;
+    height: 100vh;
     max-width: 1236px;
     margin: 0px auto;
+
+    display: flex;
+    align-items: center;
 }
 
 .features__content {
     position: relative;
     width: 761px;
-    height: 761px;
-    top: 170px;
+    max-height: 542px;
     margin: 0px auto;
 
     display: flex;
@@ -154,6 +160,11 @@
 .button_red {
     color: #D43F3F;
     background-color: #FFD7D7;
+}
+
+.button_red:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px #FC9797, 0 0 20px #FC9797, 0 0 30px #FC9797;
 }
 
 .features__choice {

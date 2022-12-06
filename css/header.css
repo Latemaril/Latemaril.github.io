@@ -1,13 +1,17 @@
 /* Header */
 
 .header {
-    height: 80px;
+    min-height: 80px;
+    height: 10vh;
 }
 
 .header__container {
+    min-height: 80px;
+    height: 10vh;
     max-width: 1236px;
     display: flex;
-    margin: 19px auto;
+    align-items: center;
+    margin: 0px auto;
     align-items: center;
 }
 

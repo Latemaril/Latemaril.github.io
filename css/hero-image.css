@@ -3,17 +3,17 @@
     border-top-width: 2px;
     border-top-style: solid;
     border-top-color: #D8E3FE;
+    height: 75vh;
 }
 
 .hero_bg{
     background-image: url("../img/hero image/hero_image.svg");
-    background-position: 50% 100%;
     background-size: cover;
-    min-height: 570px;
-    height: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #F4F7FF;
+    min-height: 570px;
+    height: 100%;
 }
 
 .hero__container{

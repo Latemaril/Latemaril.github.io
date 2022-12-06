@@ -9,19 +9,25 @@
 
     background-position: center center;
     background-color: #F5F8FF;
+    min-height: 776px;
+    height: 95vh;
 }
 
 .manage__container {
-    height: 776px;
+    min-height: 776px;
+    height: 95vh;
     max-width: 1236px;
     margin: 0px auto;
+    display: flex;
+    align-items: center;
 }
 
 .manage__content {
     position: absolute;
     height: 413px;
     margin-left: 167px;
-    margin-top: 208px;
+    display: flex;
+    flex-direction: column;
 
 }
 

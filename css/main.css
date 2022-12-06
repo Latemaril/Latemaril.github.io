@@ -4,6 +4,8 @@
 @import "customers.css";
 @import "manage.css";
 @import "features.css";
+@import "stats.css";
+@import "blog.css";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Quicksand:wght@300;400;500;700&family=Roboto:wght@400;500&display=swap');
 
 body {
