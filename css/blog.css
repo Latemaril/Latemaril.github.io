@@ -81,7 +81,7 @@
 
 .planing__container {
     position: relative;
-    min-width: 882px;
+    max-width: 882px;
     min-height: 267px;
 
     margin: 63px 38px;
@@ -93,12 +93,101 @@
 
 .planing__grid {
     min-width: 407px;
+    min-height: 267px;
 
     display: grid;
+    grid-gap: 12px;
+    grid-template-areas: "a a b" "a a b" "a a c" "a a c"
+}
+
+[class^="cell-"] {
+    filter: drop-shadow(0px 15px 100px #E5EBF8);
+    border-radius: 5px;
+    align-self: stretch;
+}
+
+.cell-1 {
+    grid-area: a;
+
+    max-width: 267px;
+    max-height: 267px;
+
+    background: linear-gradient(13.46deg, rgba(255, 199, 53, 0.44) 1.89%,
+    rgba(255, 227, 154, 0.93) 1.9%,
+    rgba(255, 159, 90, 0) 68.24%),
+    url("../img/blog/grid/grid_3.svg");
+
+}
+
+.cell-2 {
+    grid-area: b;
+
+    max-width: 127px;
+    max-height: 127px;
+
+    background: linear-gradient(27.48deg,
+    rgba(255, 53, 53, 0.48) 14.02%,
+    rgba(255, 179, 90, 0) 68%),
+    url("../img/blog/grid/grid_1.svg");
+}
+
+.cell-3 {
+    grid-area: c;
+
+    max-width: 127px;
+    max-height: 127px;
+
+    background: linear-gradient(13.49deg,
+    rgba(53, 170, 255, 0.68) 11.59%,
+    rgba(90, 136, 255, 0) 96.88%),
+    url("../img/blog/grid/grid_2.svg");
+}
+
+.planing__sheet {
+    max-width: 408px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.planing__title {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #3D4F9F;
 }
 
 .planing__text {
-    min-width: 408px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+
+    color: #8D96BD;
+}
+
+.planing__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 39px;
+}
+
+.button__description {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #A6B6DA;
 }
 
 .blog__arrow {
